@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fast &amp; Furious Auto Body | Collision Repair in Griffith, IN</title>
+<meta name="description" content="Collision repair, dent and scratch repair, paint matching, frame straightening and insurance claim help. 611 E Main St Unit C, Griffith, Indiana. Call (219) 516-3180 for a free estimate.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700;900&family=Barlow+Condensed:wght@400;500;600;700&family=Barlow:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --black:#0d0e10;
+  --pit:#16181b;
+  --gun:#23262a;
+  --steel:#3a3e44;
+  --primer:#8a8d90;
+  --fog:#c9ccd0;
+  --white:#f2f0eb;
+  --hazard:#ff6a13;
+  --hazard-dk:#d9530a;
+  --pos:50%;
+  --stencil:"Big Shoulders Stencil Display",Impact,sans-serif;
+  --cond:"Barlow Condensed","Arial Narrow",sans-serif;
+  --body:"Barlow",system-ui,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--black);color:var(--fog);font-family:var(--body);font-size:1.05rem;line-height:1.6;overflow-x:hidden;padding-bottom:64px}
+@media(min-width:900px){body{padding-bottom:0}}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:100;opacity:.07;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--hazard);outline-offset:3px}
+.wrap{width:min(1240px,100% - 2.5rem);margin-inline:auto}
+.tag{font-family:var(--cond);font-weight:600;letter-spacing:.18em;text-transform:uppercase;font-size:.8rem;color:var(--hazard)}
+.hazard-bar{height:14px;background:repeating-linear-gradient(-45deg,var(--hazard) 0 18px,var(--black) 18px 36px)}
+
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(13,14,16,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--gun)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:.7rem;text-decoration:none}
+.plate{font-family:var(--stencil);font-weight:900;font-size:1.25rem;letter-spacing:.06em;color:var(--black);background:var(--white);border:2px solid var(--black);outline:2px solid var(--white);border-radius:4px;padding:.05rem .5rem;line-height:1.2}
+.logo span:last-child{font-family:var(--cond);font-weight:600;text-transform:uppercase;letter-spacing:.12em;font-size:.85rem;color:var(--fog);display:none}
+@media(min-width:560px){.logo span:last-child{display:inline}}
+.nav ul{display:none;list-style:none;gap:2rem;font-family:var(--cond);text-transform:uppercase;letter-spacing:.14em;font-size:.9rem}
+.nav ul a{text-decoration:none;color:var(--primer);transition:color .2s}
+.nav ul a:hover{color:var(--white)}
+@media(min-width:900px){.nav ul{display:flex}}
+.btn{display:inline-flex;align-items:center;gap:.6rem;font-family:var(--cond);font-weight:700;text-transform:uppercase;letter-spacing:.1em;text-decoration:none;background:var(--hazard);color:var(--black);padding:.75rem 1.25rem;border-radius:2px;transition:background .2s,transform .2s;white-space:nowrap}
+.btn:hover{background:var(--white);transform:translateY(-2px)}
+.btn svg{width:18px;height:18px}
+.btn.ghost{background:transparent;color:var(--white);border:2px solid var(--steel)}
+.btn.ghost:hover{border-color:var(--hazard);color:var(--hazard);background:transparent}
+.nav .btn{display:none}
+@media(min-width:900px){.nav .btn{display:inline-flex}}
+
+/* hero */
+.hero{padding:2.5rem 0 3.5rem;position:relative}
+.hero-top{display:grid;gap:1.25rem;margin-bottom:1.75rem}
+@media(min-width:900px){.hero-top{grid-template-columns:1.4fr 1fr;align-items:end}}
+h1{font-family:var(--stencil);font-weight:900;text-transform:uppercase;line-height:.86;color:var(--white);font-size:clamp(3.2rem,10.5vw,8.6rem);letter-spacing:.01em}
+h1 .strike{color:var(--primer);position:relative;display:inline-block}
+h1 .strike::after{content:"";position:absolute;left:-2%;right:-2%;top:52%;height:.09em;background:var(--hazard);transform:rotate(-3deg)}
+h1 em{font-style:normal;color:var(--hazard)}
+.hero-side p{font-family:var(--cond);font-size:1.3rem;line-height:1.35;color:var(--fog);max-width:30ch;margin-bottom:1.25rem}
+.hero-side .ctas{display:flex;flex-wrap:wrap;gap:.75rem}
+
+.bay{position:relative;border:2px solid var(--gun);background:
+  radial-gradient(ellipse 70% 40% at 50% 88%,rgba(0,0,0,.7),transparent 70%),
+  linear-gradient(180deg,#1b1d21 0%,#121316 62%,#0f1012 62.2%,#18191c 100%);
+  aspect-ratio:16/10;overflow:hidden;cursor:ew-resize;user-select:none;touch-action:pan-y}
+@media(min-width:700px){.bay{aspect-ratio:21/9}}
+.bay::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 119px,rgba(255,255,255,.025) 119px 120px);pointer-events:none}
+.layer{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:4% 6% 2%}
+.layer svg{width:100%;height:100%;max-height:100%}
+.layer.before{clip-path:inset(0 calc(100% - var(--pos)) 0 0);background:linear-gradient(180deg,#202226 0%,#16171a 62%,#131416 62.2%,#1c1d20 100%)}
+.label{position:absolute;top:1rem;font-family:var(--stencil);font-weight:900;font-size:clamp(1rem,2.4vw,1.6rem);letter-spacing:.12em;padding:.25rem .7rem;z-index:3;pointer-events:none}
+.label.b{left:1rem;background:var(--primer);color:var(--black)}
+.label.a{right:1rem;background:var(--hazard);color:var(--black)}
+.handle{position:absolute;top:0;bottom:0;left:var(--pos);width:3px;background:var(--hazard);transform:translateX(-50%);z-index:4;pointer-events:none;box-shadow:0 0 20px rgba(255,106,19,.5)}
+.handle::after{content:"";position:absolute;top:50%;left:50%;width:54px;height:54px;transform:translate(-50%,-50%);background:var(--hazard) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230d0e10' stroke-width='2.6' stroke-linecap='square'%3E%3Cpath d='M9 6l-6 6 6 6M15 6l6 6-6 6'/%3E%3C/svg%3E") center/26px no-repeat;border-radius:50%;border:3px solid var(--black)}
+.bay input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;z-index:5;margin:0}
+.bay:has(input:focus-visible){outline:3px solid var(--hazard);outline-offset:4px}
+.bay-meta{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem;margin-top:.75rem;font-family:var(--cond);text-transform:uppercase;letter-spacing:.14em;font-size:.78rem;color:var(--primer)}
+.bay.hint .handle{animation:nudge 2.4s ease-in-out 1s 1}
+@keyframes nudge{0%,100%{left:var(--pos)}30%{left:62%}65%{left:40%}}
+
+/* ticker */
+.ticker{background:var(--hazard);color:var(--black);overflow:hidden;white-space:nowrap;border-block:2px solid var(--black)}
+.ticker div{display:inline-block;font-family:var(--stencil);font-weight:900;font-size:1.5rem;letter-spacing:.08em;padding:.55rem 0;animation:roll 32s linear infinite}
+.ticker span{margin:0 1.5rem}
+@keyframes roll{to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.ticker div,.bay.hint .handle{animation:none}}
+
+section{padding:5.5rem 0}
+h2{font-family:var(--stencil);font-weight:900;text-transform:uppercase;color:var(--white);font-size:clamp(2.6rem,7vw,5.4rem);line-height:.9;letter-spacing:.01em}
+
+/* work order */
+.order-head{display:grid;gap:1.5rem;margin-bottom:3rem}
+@media(min-width:900px){.order-head{grid-template-columns:1fr 1fr;align-items:end}}
+.order-head p{max-width:46ch;color:var(--fog)}
+.order{border:2px solid var(--steel);background:var(--pit);position:relative}
+.order-top{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem;padding:1rem 1.25rem;border-bottom:2px dashed var(--steel);font-family:var(--cond);text-transform:uppercase;letter-spacing:.14em;font-size:.8rem;color:var(--primer)}
+.order-top b{color:var(--white);font-weight:600}
+.line{display:grid;grid-template-columns:3.2rem 1fr;gap:1rem;padding:1.4rem 1.25rem;border-bottom:1px solid var(--gun);transition:background .25s}
+.line:last-child{border-bottom:0}
+.line:hover{background:#1c1f23}
+.line:hover .no{color:var(--hazard)}
+.no{font-family:var(--stencil);font-weight:900;font-size:2rem;line-height:1;color:var(--steel);transition:color .25s}
+.line h3{font-family:var(--cond);font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:1.55rem;line-height:1.1;color:var(--white);margin-bottom:.3rem}
+.line p{color:var(--primer);font-size:.98rem;max-width:60ch}
+@media(min-width:900px){
+  .lines{display:grid;grid-template-columns:1fr 1fr}
+  .line:nth-child(odd){border-right:1px solid var(--gun)}
+  .line:nth-last-child(-n+2){border-bottom:0}
+}
+
+/* insurance split */
+.claim{background:var(--white);color:var(--black);position:relative;overflow:hidden}
+.claim h2{color:var(--black)}
+.claim .tag{color:var(--hazard-dk)}
+.claim-grid{display:grid;gap:3rem}
+@media(min-width:900px){.claim-grid{grid-template-columns:1.1fr 1fr;gap:5rem}}
+.claim p.lead{font-family:var(--cond);font-size:1.45rem;line-height:1.3;margin:1.5rem 0;max-width:34ch;font-weight:500}
+.claim p{color:#2b2d31}
+.steps{list-style:none;counter-reset:s;border-top:3px solid var(--black)}
+.steps li{counter-increment:s;display:grid;grid-template-columns:4rem 1fr;gap:1rem;padding:1.3rem 0;border-bottom:1px solid #cfccc4}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--stencil);font-weight:900;font-size:2.2rem;line-height:1;color:var(--hazard-dk)}
+.steps strong{display:block;font-family:var(--cond);font-weight:700;text-transform:uppercase;font-size:1.3rem;letter-spacing:.04em}
+.steps span{color:#45484d;font-size:.98rem}
+.claim .bigmark{position:absolute;right:-2rem;bottom:-3.5rem;font-family:var(--stencil);font-weight:900;font-size:clamp(8rem,22vw,18rem);line-height:1;color:rgba(13,14,16,.05);pointer-events:none}
+
+/* why */
+.why-grid{display:grid;gap:0;border-top:2px solid var(--steel);margin-top:3rem}
+@media(min-width:800px){.why-grid{grid-template-columns:repeat(3,1fr)}}
+.why{padding:2rem 1.5rem 2rem 0;border-bottom:2px solid var(--steel)}
+@media(min-width:800px){.why{border-bottom:0;padding:2rem 2rem 0 0}.why+.why{padding-left:2rem;border-left:1px solid var(--gun)}}
+.why h3{font-family:var(--cond);font-weight:700;text-transform:uppercase;font-size:1.6rem;letter-spacing:.03em;color:var(--white);line-height:1.1;margin-bottom:.6rem}
+.why h3::before{content:"";display:block;width:34px;height:6px;background:var(--hazard);margin-bottom:1rem}
+.why p{color:var(--primer)}
+
+/* contact */
+.contact{background:var(--pit);border-top:2px solid var(--gun)}
+.contact-grid{display:grid;gap:3rem}
+@media(min-width:900px){.contact-grid{grid-template-columns:1.2fr 1fr;align-items:center}}
+.phone-big{display:block;font-family:var(--stencil);font-weight:900;color:var(--hazard);text-decoration:none;font-size:clamp(3rem,10vw,7rem);line-height:.95;margin:1.25rem 0;letter-spacing:.01em;transition:color .2s}
+.phone-big:hover{color:var(--white)}
+.contact p{max-width:42ch}
+.card{border:2px solid var(--steel);background:var(--black);padding:1.75rem}
+.card dl{display:grid;gap:1.25rem}
+.card dt{font-family:var(--cond);text-transform:uppercase;letter-spacing:.16em;font-size:.78rem;color:var(--primer)}
+.card dd{font-family:var(--cond);font-size:1.35rem;color:var(--white);line-height:1.25;font-weight:500}
+.card .btn{margin-top:1.5rem;width:100%;justify-content:center}
+.pin{width:100%;height:auto;display:block;margin-bottom:1.5rem;border:1px solid var(--gun)}
+
+footer{border-top:1px solid var(--gun);padding:2rem 0;font-family:var(--cond);letter-spacing:.08em;text-transform:uppercase;font-size:.82rem;color:var(--primer)}
+.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem}
+.foot small{font-size:.75rem;opacity:.7}
+
+.callbar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex}
+.callbar a{flex:1;justify-content:center;border-radius:0;padding:1.1rem;font-size:1.05rem}
+@media(min-width:900px){.callbar{display:none}}
+
+@supports (animation-timeline:view()){
+  .reveal{animation:rise linear both;animation-timeline:view();animation-range:entry 0% entry 40%}
+  @keyframes rise{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}
+}
+@media(prefers-reduced-motion:reduce){.reveal{animation:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#top" aria-label="Fast and Furious Auto Body home">
+      <span class="plate">F&amp;F</span><span>Fast &amp; Furious Auto Body</span>
+    </a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#work">The Work</a></li>
+        <li><a href="#insurance">Insurance</a></li>
+        <li><a href="#shop">The Shop</a></li>
+        <li><a href="#contact">Find Us</a></li>
+      </ul>
+    </nav>
+    <a class="btn" href="tel:+12195163180"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.6a1 1 0 01-.25 1z"/></svg>(219) 516-3180</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="h1">
+    <div class="wrap">
+      <div class="hero-top">
+        <h1 id="h1"><span class="strike">Wrecked</span><br>to <em>right.</em></h1>
+        <div class="hero-side">
+          <p>Collision and body repair in Griffith, Indiana. Drag the bar. That's the whole pitch.</p>
+          <div class="ctas">
+            <a class="btn" href="tel:+12195163180">Call for a free estimate</a>
+            <a class="btn ghost" href="#work">What we fix</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bay hint" id="bay">
+        <span class="label b">Before</span>
+        <span class="label a">After</span>
+
+        <!-- AFTER -->
+        <div class="layer after" aria-hidden="true">
+          <svg viewBox="0 0 800 330" role="presentation">
+            <defs>
+              <linearGradient id="paint" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#5a6370"/>
+                <stop offset=".35" stop-color="#2c323a"/>
+                <stop offset=".7" stop-color="#1a1e23"/>
+                <stop offset="1" stop-color="#0e1013"/>
+              </linearGradient>
+              <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#9fb2c4"/>
+                <stop offset=".5" stop-color="#3b4652"/>
+                <stop offset="1" stop-color="#1b2128"/>
+              </linearGradient>
+              <radialGradient id="rim"><stop offset="0" stop-color="#d9dcdf"/><stop offset=".7" stop-color="#7c8187"/><stop offset="1" stop-color="#3a3e44"/></radialGradient>
+            </defs>
+            <ellipse cx="400" cy="300" rx="360" ry="18" fill="#000" opacity=".55"/>
+            <path d="M48 256 L50 212 Q56 186 104 176 L232 164 Q286 112 336 98 L520 96 Q566 102 616 160 L706 174 Q752 184 756 222 L756 256 Q756 266 744 266 L60 266 Q48 266 48 256Z" fill="url(#paint)"/>
+            <path d="M250 162 Q296 120 340 108 L428 106 L430 162Z" fill="url(#glass)"/>
+            <path d="M444 106 L516 106 Q552 112 592 162 L446 162Z" fill="url(#glass)"/>
+            <path d="M70 196 Q200 182 400 180 Q600 182 740 198" stroke="#aeb7c2" stroke-width="3" fill="none" opacity=".6"/>
+            <path d="M60 236 L748 236" stroke="#ff6a13" stroke-width="5"/>
+            <path d="M436 164 L438 260" stroke="#0b0c0e" stroke-width="2"/>
+            <rect x="372" y="190" width="30" height="5" rx="2" fill="#c9ccd0" opacity=".8"/>
+            <rect x="500" y="190" width="30" height="5" rx="2" fill="#c9ccd0" opacity=".8"/>
+            <path d="M716 192 L752 200 L752 214 L720 212Z" fill="#fff6e0"/>
+            <path d="M50 200 L74 196 L74 214 L50 216Z" fill="#c22"/>
+            <path d="M330 112 Q440 104 560 120" stroke="#fff" stroke-width="2" opacity=".35" fill="none"/>
+            <g><circle cx="196" cy="264" r="50" fill="#0b0c0e"/><circle cx="196" cy="264" r="30" fill="url(#rim)"/><circle cx="196" cy="264" r="8" fill="#23262a"/></g>
+            <g><circle cx="612" cy="264" r="50" fill="#0b0c0e"/><circle cx="612" cy="264" r="30" fill="url(#rim)"/><circle cx="612" cy="264" r="8" fill="#23262a"/></g>
+          </svg>
+        </div>
+
+        <!-- BEFORE -->
+        <div class="layer before" aria-hidden="true">
+          <svg viewBox="0 0 800 330" role="presentation">
+            <defs>
+              <radialGradient id="dent"><stop offset="0" stop-color="#3b3e42"/><stop offset=".6" stop-color="#5f6266" stop-opacity=".7"/><stop offset="1" stop-color="#8a8d90" stop-opacity="0"/></radialGradient>
+            </defs>
+            <ellipse cx="400" cy="300" rx="350" ry="16" fill="#000" opacity=".5"/>
+            <path d="M48 256 L50 212 Q56 186 104 176 L232 164 Q286 112 336 98 L520 96 Q566 102 612 156 L670 170 L690 186 L676 198 L706 210 L694 226 L716 238 L704 256 Q700 266 690 266 L60 266 Q48 266 48 256Z" fill="#7d8083"/>
+            <path d="M250 162 Q296 120 340 108 L428 106 L430 162Z" fill="#2a2d31"/>
+            <path d="M444 106 L516 106 Q552 112 592 162 L446 162Z" fill="#2a2d31"/>
+            <path d="M462 112 L500 150 M480 108 L470 140 L520 130 M500 150 L540 120" stroke="#9aa0a6" stroke-width="1.5" fill="none"/>
+            <path d="M470 168 L612 160 L664 176 L672 244 L470 248Z" fill="#a0806b" opacity=".75"/>
+            <ellipse cx="560" cy="210" rx="56" ry="26" fill="url(#dent)"/>
+            <ellipse cx="300" cy="222" rx="40" ry="18" fill="url(#dent)"/>
+            <path d="M120 200 L280 214 M130 210 L250 222 M150 192 L310 206" stroke="#d8d9db" stroke-width="1.6" opacity=".7"/>
+            <path d="M436 164 L440 260" stroke="#3a3d41" stroke-width="2"/>
+            <path d="M640 180 L690 190 L680 204 L650 198Z" fill="#3a3d41"/>
+            <path d="M648 184 L668 196 M660 182 L656 200" stroke="#7d8083" stroke-width="1.5"/>
+            <path d="M60 236 L470 238" stroke="#5a5d60" stroke-width="5" stroke-dasharray="40 8 60 14"/>
+            <path d="M50 200 L74 196 L74 214 L50 216Z" fill="#5b2323"/>
+            <path d="M676 246 L730 258 L726 272 L668 262Z" fill="#4a4d50" transform="rotate(8 700 260)"/>
+            <g><circle cx="196" cy="264" r="50" fill="#0b0c0e"/><circle cx="196" cy="264" r="30" fill="#55595e"/><circle cx="196" cy="264" r="8" fill="#23262a"/></g>
+            <g transform="rotate(-6 612 264)"><circle cx="612" cy="268" r="48" fill="#0b0c0e"/><circle cx="612" cy="268" r="28" fill="#4a4e53"/><circle cx="612" cy="268" r="8" fill="#23262a"/></g>
+          </svg>
+        </div>
+
+        <div class="handle"></div>
+        <label class="visually-hidden" for="slide" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Compare damaged and repaired vehicle</label>
+        <input id="slide" type="range" min="0" max="100" value="50" aria-valuetext="Showing half before, half after">
+      </div>
+      <div class="bay-meta">
+        <span>Illustration — shop before/after photos coming soon</span>
+        <span>611 E Main St · Unit C · Griffith IN</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="ticker" aria-hidden="true"><div>
+    <span>Collision</span>✕<span>Dents</span>✕<span>Scratches</span>✕<span>Paint Match</span>✕<span>Frame</span>✕<span>Bumpers</span>✕<span>Insurance Claims</span>✕
+    <span>Collision</span>✕<span>Dents</span>✕<span>Scratches</span>✕<span>Paint Match</span>✕<span>Frame</span>✕<span>Bumpers</span>✕<span>Insurance Claims</span>✕
+  </div></div>
+
+  <section id="work" aria-labelledby="work-h">
+    <div class="wrap">
+      <div class="order-head reveal">
+        <div>
+          <p class="tag">Work order</p>
+          <h2 id="work-h">What comes<br>in the bay.</h2>
+        </div>
+        <p>From a parking-lot scrape to a front end that met a pole — if it's body damage, it's our job. Bring it in, we'll look it over and tell you straight what it needs.</p>
+      </div>
+
+      <div class="order reveal">
+        <div class="order-top"><span>Shop: <b>Fast &amp; Furious Auto Body</b></span><span>Estimate: <b>Free</b></span><span>Loc: <b>Griffith, IN</b></span></div>
+        <div class="lines">
+          <div class="line"><span class="no">01</span><div><h3>Collision repair</h3><p>Full post-accident restoration — damaged panels repaired or replaced, structure checked, and the car put back the way it left the factory.</p></div></div>
+          <div class="line"><span class="no">02</span><div><h3>Dent &amp; scratch repair</h3><p>Door dings, hail-style dents, key scratches and scuffs pulled, filled and smoothed so the panel reads clean again.</p></div></div>
+          <div class="line"><span class="no">03</span><div><h3>Paint matching &amp; refinishing</h3><p>Color matched to your vehicle's existing paint, then blended so the repaired panel doesn't stand out from the rest.</p></div></div>
+          <div class="line"><span class="no">04</span><div><h3>Frame straightening</h3><p>When an impact pushes the frame out of line, we bring it back — so the car drives straight and panels fit right.</p></div></div>
+          <div class="line"><span class="no">05</span><div><h3>Bumper repair / replacement</h3><p>Cracked, torn, pushed-in or hanging off. Repaired where it makes sense, replaced where it doesn't.</p></div></div>
+          <div class="line"><span class="no">06</span><div><h3>Insurance claim assistance</h3><p>We work directly with your adjuster so you're not stuck playing phone tag between the shop and the insurance company.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="hazard-bar" aria-hidden="true"></div>
+
+  <section class="claim" id="insurance" aria-labelledby="ins-h">
+    <div class="wrap claim-grid">
+      <div class="reveal">
+        <p class="tag">After the accident</p>
+        <h2 id="ins-h">Insurance?<br>We'll talk<br>to them.</h2>
+        <p class="lead">You've already had a bad day. The paperwork shouldn't make it worse.</p>
+        <p>We work directly with insurance adjusters on your behalf — estimates, photos, supplements, the back-and-forth. You get a straight answer on where your car stands and when it'll be ready.</p>
+      </div>
+      <ol class="steps reveal">
+        <li><div><strong>Call the shop</strong><span>(219) 516-3180. Tell us what happened and what's damaged.</span></div></li>
+        <li><div><strong>Bring it in</strong><span>We inspect the damage in person and write up a free estimate.</span></div></li>
+        <li><div><strong>We handle the adjuster</strong><span>Your claim info goes to us; we coordinate directly with your insurance.</span></div></li>
+        <li><div><strong>We fix it</strong><span>Body, frame, paint — done in-house, with updates along the way.</span></div></li>
+        <li><div><strong>You drive it home</strong><span>Looking like the "after" side of the slider.</span></div></li>
+      </ol>
+    </div>
+    <span class="bigmark" aria-hidden="true">CLAIM</span>
+  </section>
+
+  <section id="shop" aria-labelledby="shop-h">
+    <div class="wrap">
+      <div class="reveal">
+        <p class="tag">The shop</p>
+        <h2 id="shop-h">Local bay.<br>Not a chain.</h2>
+      </div>
+      <div class="why-grid reveal">
+        <div class="why"><h3>Right here in Griffith</h3><p>A local shop on East Main Street, serving Griffith and the surrounding Lake County and Northwest Indiana communities.</p></div>
+        <div class="why"><h3>You talk to the shop</h3><p>No call center, no corporate script. Direct, personal service from the people actually working on your vehicle.</p></div>
+        <div class="why"><h3>Straight answers</h3><p>What's damaged, what it takes to fix, and when it'll be done. No runaround, no upsell, no fluff.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="contact-h">
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <p class="tag">Free repair estimate</p>
+        <h2 id="contact-h">Been in an<br>accident?</h2>
+        <a class="phone-big" href="tel:+12195163180">219·516·3180</a>
+        <p>Call us first. We'll tell you what to do next, look at the damage, and give you a free estimate — whether you're going through insurance or paying out of pocket.</p>
+      </div>
+      <div class="card reveal">
+        <svg class="pin" viewBox="0 0 400 170" aria-hidden="true">
+          <rect width="400" height="170" fill="#16181b"/>
+          <g stroke="#2c3036" stroke-width="10"><path d="M0 92 H400"/><path d="M120 0 V170"/><path d="M290 0 V170"/></g>
+          <g stroke="#23262a" stroke-width="4"><path d="M0 34 H400 M0 140 H400 M60 0 V170 M200 0 V170 M350 0 V170"/></g>
+          <text x="10" y="84" fill="#8a8d90" font-family="Barlow Condensed,sans-serif" font-size="12" letter-spacing="2">E MAIN ST</text>
+          <circle cx="232" cy="92" r="26" fill="#ff6a13" opacity=".18"/>
+          <path d="M232 64 a16 16 0 0 1 16 16 c0 12 -16 28 -16 28 s-16 -16 -16 -28 a16 16 0 0 1 16 -16z" fill="#ff6a13"/>
+          <circle cx="232" cy="80" r="5.5" fill="#0d0e10"/>
+        </svg>
+        <dl>
+          <div><dt>Shop</dt><dd>Fast &amp; Furious Auto Body</dd></div>
+          <div><dt>Address</dt><dd>611 E Main St, Unit C<br>Griffith, IN 46319</dd></div>
+          <div><dt>Phone</dt><dd><a href="tel:+12195163180">(219) 516-3180</a></dd></div>
+        </dl>
+        <a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=611+E+Main+St+Unit+C+Griffith+IN+46319" target="_blank" rel="noopener">Get directions</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>© 2026 Fast &amp; Furious Auto Body · 611 E Main St Unit C, Griffith, IN 46319</span>
+    <small>Website sample by Wild Card Creative Co</small>
+  </div>
+</footer>
+
+<div class="callbar"><a class="btn" href="tel:+12195163180">Call for a free estimate · (219) 516-3180</a></div>
+
+<script>
+(function(){
+  var bay=document.getElementById('bay'),r=document.getElementById('slide');
+  r.addEventListener('input',function(){
+    bay.classList.remove('hint');
+    bay.style.setProperty('--pos',r.value+'%');
+    var v=+r.value;
+    r.setAttribute('aria-valuetext',v<15?'Showing mostly repaired vehicle':v>85?'Showing mostly damaged vehicle':'Showing '+v+' percent damaged, '+(100-v)+' percent repaired');
+  });
+})();
+</script>
+</body>
+</html>
